@@ -931,6 +931,7 @@
 			#bannerloc .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
+				max-width: 800px;
 				/*text-transform: uppercase;*/
 			}
 
