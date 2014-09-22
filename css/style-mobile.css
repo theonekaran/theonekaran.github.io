@@ -141,6 +141,29 @@
 			}
 
 			#banner .inner br {
+				/*display: none;*/
+			}
+
+	#bannerloc {
+		background-size: 10em, 10em, auto, cover;
+		padding: 6em 0;
+	}
+
+		#bannerloc .inner {
+			background: none;
+			display: block;
+			padding: 0 1.5em;
+		}
+
+			#bannerloc .inner header h2 {
+				font-size: 1.5em;
+			}
+
+			#bannerloc .inner p {
+				text-align: center;
+			}
+
+			#bannerloc .inner br {
 				display: none;
 			}
 
