@@ -179,6 +179,9 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="number"],
+	input[type="datetime-local"],
+	
 	textarea {
 		-moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -203,13 +206,19 @@
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+		input[type="number"]:focus,
+		input[type="datetime-local"]:focus,
+		
 		textarea:focus {
 			border-color: #83d3c9;
 		}
 
 	input[type="text"],
 	input[type="password"],
-	input[type="email"] {
+	input[type="email"],
+	input[type="number"],
+	input[type="datetime-local"],
+	input[type="radio"], {
 		line-height: 1em;
 	}
 
@@ -340,12 +349,12 @@
 					background: #df7b77;
 				}
 
-			.icon.circle.fa-github {
+			.icon.circle.fa-instagram {
 				background: #dcad8b;
 				color: white;
 			}
 
-				.icon.circle.fa-github:hover {
+				.icon.circle.fa-instagram:hover {
 					background: #e1b89b;
 				}
 
@@ -936,6 +945,7 @@
 			#bannerloc .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
+				max-width: 800px;
 				/*text-transform: uppercase;*/
 			}
 
