@@ -936,7 +936,7 @@
 
 				#bannerloc .inner p a {
 					color: inherit;
-					font-weight: 400;
+					/*font-weight: 400;*/
 					text-decoration: none;
 				}
 
