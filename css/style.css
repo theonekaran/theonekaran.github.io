@@ -818,8 +818,8 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
-		background-position: bottom left, bottom right, top left, top center;
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/hindu_mandap.jpg");
+		background-position: bottom left, bottom right, top left, center center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: white;
@@ -894,7 +894,7 @@
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
 		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/resorts_1_1.jpg");
-		background-position: bottom left, bottom right, top left, top center;
+		background-position: bottom left, bottom right, top left, center center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: white;
@@ -902,6 +902,13 @@
 		padding: 6em 0;
 		text-align: center;
 	}
+
+		#bannerloc.activities{
+		background-attachment: scroll, scroll, scroll, fixed;
+		background-color: #645862;
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/back_formulario.jpg");
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		}
 		
 		#bannerloc .inner {
 			-moz-animation: reveal-bannerloc 1s 0.25s ease-in-out;
